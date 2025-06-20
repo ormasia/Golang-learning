@@ -4,3 +4,7 @@ Model Context Protocol (MCP) 的 HTTPS 流式传输](https://modelcontextprotoco
 [Transports of MCP](https://github.com/microsoft/mcp-for-beginners/blob/main/03-GettingStarted/06-http-streaming/README.md)
 
 [MCP协议重大升级，Spring AI Alibaba联合Higress发布业界首个Streamable HTTP实现方案 ](http://cnblogs.com/alisystemsoftware/p/18842223)  
+
+本质上是这两个响应头
+Content-Type: text/event-stream
+Transfer-Encoding: chunked
